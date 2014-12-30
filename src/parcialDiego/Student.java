@@ -2,45 +2,57 @@ package parcialDiego;
 
 public class Student {
 
-    private double nota1 = 0.0;
-    private double nota2 = 0.0;
-    private double nota3 = 0.0;
-    private double definitiva = 0.0;
+    private double note1 = 0.0;
+    private double note2 = 0.0;
+    private double note3 = 0.0;
+    private double finalRating = 0.0;
 
     public Student() {
     }
 
-    public Student(double nota1, double nota2, double nota3) {
+    public Student(double note1, double note2, double note3) {
 
-        this.nota1 = nota1;
-        this.nota2 = nota2;
-        this.nota3 = nota3;
-        this.definitiva = toCalculateFinalRating();
+        this.note1 = note1;
+        this.note2 = note2;
+        this.note3 = note3;
+        this.finalRating = toCalculateFinalRating();
     }
 
-    public void setNota1(double nota1) {
-        this.nota1 = nota1;
+    public void setNote1(double note1) {
+        this.note1 = note1;
     }
 
-    public void setNota2(double nota2) {
-        this.nota2 = nota2;
+    public void setNote2(double note2) {
+        this.note2 = note2;
     }
 
-    public void setNota3(double nota3) {
-        this.nota3 = nota3;
+    public void setNote3(double note3) {
+        this.note3 = note3;
+    }
+
+    public double getNote1() {
+        return note1;
+    }
+
+    public double getNote2() {
+        return note2;
+    }
+
+    public double getNote3() {
+        return note3;
     }
 
     public double toCalculateFinalRating() {
-        return ((nota1 + nota2 + nota3) / 3);
+        return ((note1 + note2 + note3) / 3);
     }
 
     @Override
     public String toString() {
-        return "Las notas del estudiante son: \n"
-                + "nota1=" + nota1
-                + ",\n nota2=" + nota2
-                + ",\n nota3=" + nota3
-                + ",\n definitiva=" + definitiva;
+        return "The ratings of the students are: \n"
+                + "note1=" + note1
+                + ",\n note2=" + note2
+                + ",\n note3=" + note3
+                + ",\n Final Rating=" + finalRating;
     }
 
 }

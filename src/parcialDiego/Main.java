@@ -59,7 +59,7 @@ public class Main {
                show("And besides ... you also won a USB! :D");
                totalDiscounts += (pucharseBuy * 0.23);
             }
-        answer = setString("Hay otro Cliente?");
+        answer = setString("Is there any other Client?");
         }while(((answer.charAt(0)+"").equalsIgnoreCase("s")));
         show("The total discount that was granted by the\n"
                 + "Supermarket was a value of: " + totalDiscounts);
@@ -68,21 +68,21 @@ public class Main {
     //Methods for solving problems
     
     public static Student makeStudent() {
-        Student s = new Student(
+        Student stdnt = new Student(
                 setDouble("Type note number 1 of the student"),
                 setDouble("Type note number 2 of the student"),
                 setDouble("Type note number 3 of the student"));
-        return s;
+        return stdnt;
     }
 
     public static double setDouble(String str) {
-        double d = (Double.parseDouble(JOptionPane.showInputDialog(str)));
-        return d;
+        double dbl = (Double.parseDouble(JOptionPane.showInputDialog(str)));
+        return dbl;
     }
     
     public static int setInteger(String str) {
-        Integer i = (Integer.parseInt(JOptionPane.showInputDialog(str)));
-        return i;
+        Integer numint = (Integer.parseInt(JOptionPane.showInputDialog(str)));
+        return numint;
     }
     
     public static String setString(String str) {
