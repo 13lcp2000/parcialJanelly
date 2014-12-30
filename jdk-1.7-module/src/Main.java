@@ -13,7 +13,7 @@ public class Main {
     
     private static void problem1() {
 
-        show("PROBLEM #1 ");
+        show("PROBLEM #1");
         String Answer;
         int numStudents = 0;
         double AverageGroup = 0;
