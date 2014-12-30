@@ -32,7 +32,7 @@ public class Main {
         }while(((Answer.charAt(0)+"").equalsIgnoreCase("s")));
         
         averageOfTheGroup(numStudents, AverageGroup);
-        show(""+numStudentsApproved + " Students Approved.");
+        show("" + numStudentsApproved + " Students Approved.");
     }
     
     public static void problem2() {
@@ -56,7 +56,7 @@ public class Main {
                totalDiscounts += (pucharseBuy * 0.23);
             }else if(pucharseBuy > 1000000){
                show(StandartMessage + (pucharseBuy * 0.77));
-               show("And besides ... you also won a USB! :D");
+               show("And besides... you also won a USB! :D");
                totalDiscounts += (pucharseBuy * 0.23);
             }
         answer = setString("Is there any other Client?");
