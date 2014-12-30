@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141fcded-b59d-42b7-a452-459e008f37f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/jdk-1.7-module/parcialDiego/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/jdk-1.7-module/parcialDiego/Student.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jdk-1.7-module/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jdk-1.7-module/src/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jdk-1.7-module/jdk-1.7-module.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/parcialJanelly.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/parcialDiego/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/parcialDiego/Student.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="parcialJanelly.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -563,17 +547,21 @@
       <changelist id="141fcded-b59d-42b7-a452-459e008f37f6" name="Default" comment="" />
       <created>1419953212494</created>
       <updated>1419953212494</updated>
-      <workItem from="1419953212492" duration="2677000" />
+      <workItem from="1419953212492" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="This is another simple change that I've made from intellij 13 linux">
       <created>1419953966060</created>
       <updated>1419953966060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes that I've made from intellij 13 in linux">
+      <created>1419956315414</created>
+      <updated>1419956315414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2677000" />
+    <option name="totallyTimeSpent" value="3178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="21" width="1327" height="751" extended-state="6" />
@@ -621,7 +609,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="This is another simple change that I've made from intellij 13 linux" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is another simple change that I've made from intellij 13 linux" />
+    <MESSAGE value="Changes that I've made from intellij 13 in linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes that I've made from intellij 13 in linux" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
